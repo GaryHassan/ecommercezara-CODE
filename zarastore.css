@@ -1,0 +1,570 @@
+body 
+{
+    background-color: black;
+    color: white;
+    margin: 0; 
+}
+#logo 
+{
+    position: relative;
+    top: 28px;
+    left: 425px;
+    width: 520px;
+    height: 100px;
+
+}
+
+#bande_logo 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 1349px;
+    height: 200px;
+}
+
+#banniere 
+{
+    width: 923px;
+    height: 150px;
+    left: 230px;
+    position: absolute;
+}
+
+
+ul.menu_horizontal {  /*Ici , c'est ma configuration, à vous de la changer */
+    position: relative;
+    width: 1318px;
+    top: 48px;
+    left: -11px;
+    text-align: center;
+    height: 44px;
+    list-style-type: none;
+   border: 1px solid white;
+    
+}
+
+
+
+ul.menu_horizontal li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 0 1em; /* Pour espacer les boutons entre eux */
+    }
+        
+li.bouton_gauche {
+    float : left;
+    }
+
+button#seconnecter 
+{
+    width: 131px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#seconnecter:active 
+{
+    background-color: white;
+    color: black;
+}
+#seconnecter:hover
+{
+    background-color: white;
+    color: black;
+}
+a#seconnecter {
+    display : right;
+    }
+
+a
+{
+    color: white;
+}
+
+#connexion 
+{
+    position: relative;
+    width: 388px;
+    height: 362px;
+    top: 46px;
+    left: 67px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rien 
+{
+    position: relative;
+    top: 742px;
+    border-style: solid;
+    border-color: black;
+    height: 131px;
+}
+#borderconnexion 
+{
+    position: absolute;
+    width: 510px;
+    height: 490px;
+    top: 309px;
+    left: 430px;
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+#bannierefin
+{
+    width: 923px;
+    height: 150px;
+    top: 9px;
+    left: 204px;
+    position: absolute;
+}
+
+.social {  /*Ici , c'est ma configuration, à vous de la changer */
+    position: relative;
+    width: 1313px;
+    HEIGHT: 39px;
+    top: 1207px;
+    left: 0px;
+    height: 42px;
+    text-align: center;
+    list-style-type: none;
+    /*border-style: solid;
+    border-color: white;*/
+    display: inline;
+    
+}
+
+
+
+ul.social li {
+    WIDTH: 1313px;
+    left: 0px;
+    top: 1199px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 1em;
+    }
+
+button.accueil 
+{
+    width: 84px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+.accueil:active
+{
+    background-color: white;
+    color: black;
+}
+.accueil:hover
+{
+
+    background-color: white;
+    color: black;
+}
+
+button.homme 
+{
+    width: 84px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.homme:active 
+{
+    background-color: white;
+    color: black;
+}
+.homme:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button.femme 
+{
+    width: 84px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.femme:active 
+{
+    background-color: white;
+    color: black;
+}
+.femme:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button.enfants 
+{
+    width: 84px;
+    height: 44px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.enfants:active 
+{
+    background-color: white;
+    color: black;
+}
+.enfants:hover
+{
+    background-color: white;
+    color: black;
+    
+}
+
+#bouton 
+{
+    width: 227px;
+    height: 57px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#bouton:active 
+{
+    background-color: white;
+    color: black;
+}
+#bouton:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#title
+{
+    color: white;
+    top: 264px;
+    position: absolute;
+    left: 548px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid rgba(128, 128, 128, 0.19);
+    width: 238px;
+    padding-left: 12;
+}
+
+#zarastore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#loca1{
+    position: absolute;
+    top: 510px;
+    left: 35px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique1{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 426px;
+    left: 102px;
+}
+
+#hr1
+{
+    color: white;
+    top: 804px;
+    position: absolute;
+    left: 0;
+    width: 1347px;
+}
+
+#hr2
+{
+    color: white;
+    top: 1220px;
+    position: absolute;
+    left: 0;
+    width: 1347px;
+}
+
+#loca2{
+    position: absolute;
+    top: 510px;
+    left: 530px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique2{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 426px;
+    left: 609px;
+}
+
+#hr3
+{
+    color: white;
+    top: 1607px;
+    position: absolute;
+    left: 0;
+    width: 1347px;
+}
+
+#loca3{
+    position: absolute;
+    top: 510px;
+    left: 996px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique3{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 426px;
+    left: 1060px;
+}
+
+#loca4{
+    position: absolute;
+    top: 939px;
+    left: 35px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique4{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 847px;
+    left: 106px;
+}
+
+#loca5{
+    position: absolute;
+    top: 939px;
+    left: 534px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique5{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 847px;
+    left: 600px;
+}
+
+#loca6{
+    position: absolute;
+    top: 939px;
+    left: 996px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique6{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 847px;
+    left: 1082px;
+}
+
+#loca7{
+    position: absolute;
+    top: 1357px;
+    left: 35px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique7{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 1265px;
+    left: 92px;
+}
+
+#loca8{
+    position: absolute;
+    top: 1357px;
+    left: 534px;
+    border: 6px solid rgba(128, 128, 128, 0.12);
+
+}
+#boutique8{
+    position: absolute;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 1265px;
+    left: 571px;
+}
+
+
+
+
+/*FOOTER */
+#footer{
+    position: absolute;
+    top: 3246px;
+    left: -584px;
+    width: 449%;
+    height: 530px;
+    background-color: rgba(128, 128, 128, 0.06);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#contenu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+
+ul.footer-list li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+ul.footer-list p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+
+
+
+.item{
+    color: rgb(146, 146, 146);
+
+}
+
+.item:hover{
+    color: rgba(146, 146, 146, 0.57);
+}
+
+#acheter{
+    position: absolute;
+    top: 28px;
+    left: 132px;
+}
+
+#infos{
+    position: absolute;
+    top: 28px;
+    left: 378px;
+}
+
+#aide{
+    position: absolute;
+    top: 28px;
+    left: 638px;
+}
+
+#member{
+    position: absolute;
+    top: 28px;
+    left: 855px;
+}
+
+#social{
+    position: absolute;
+    display: inline;
+    top: 3482px;
+    left: -168px;
+    width: 500px;
+}
+
+#h3{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#social li{
+    display: inline;
+    font-family: "HM Ampersand","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    padding : 0 2em; /* Pour espacer les boutons entre eux */
+    }
+#social img{
+    width: 32px;
+    height: 32px;
+}
+
+#texte{
+    position: absolute;
+    top: 3556px;
+    left: -172px;
+    text-align: center;
+    width: 508px;
+}
+
+#texte p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.3px;
+    color: rgb(146, 146, 146);
+}
+
+#boutoninscr 
+{
+    width: 204px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left:-40px;
+}
+
+#boutoninscr:active 
+{
+    background-color: white;
+    color: black;
+}
+#boutoninscr:hover
+{
+    background-color: rgba(255, 255, 255, 0.69);
+    color: black;
+}
+#logofooter{
+    position: absolute;
+    top: 3638px;
+    left: -26px;
+}
+
+#logofooter img{
+    width: 250px;
+    height: 105px;
+}

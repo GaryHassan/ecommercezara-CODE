@@ -1,0 +1,762 @@
+body 
+{
+    background-color: black;
+    color: white;
+    margin: 0; 
+}
+#logo 
+{
+    position: relative;
+    top: 28px;
+    left: 425px;
+    width: 520px;
+    height: 100px;
+
+}
+
+#bande_logo 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 1349px;
+    height: 200px;
+}
+
+#banniere 
+{
+    width: 923px;
+    height: 150px;
+    left: 230px;
+    position: absolute;
+}
+
+
+ul.menu_horizontal {  /*Ici , c'est ma configuration, à vous de la changer */
+    position: relative;
+    width: 1318px;
+    top: 63px;
+    left: 8px;
+    text-align: center;
+    height: 44px;
+    list-style-type: none;
+   border: 1px solid black;
+    
+}
+
+
+
+ul.menu_horizontal li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 0 1em; /* Pour espacer les boutons entre eux */
+    }
+        
+li.bouton_gauche {
+    float : left;
+    }
+
+button#seconnecter 
+{
+    width: 162px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+button#deconnexion 
+{
+    width: 127px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#deconnexion:active 
+{
+    background-color: white;
+    color: black;
+}
+#deconnexion:hover
+{
+    background-color: white;
+    color: black;
+}
+
+#seconnecter:active 
+{
+    background-color: white;
+    color: black;
+}
+#seconnecter:hover
+{
+    background-color: white;
+    color: black;
+}
+a#seconnecter {
+    display : right;
+    }
+
+a
+{
+    color: white;
+}
+
+a.panier
+{
+    color: black;
+}
+
+a:hover
+{
+    color: black;
+}
+
+#connexion 
+{
+    position: relative;
+    width: 388px;
+    height: 362px;
+    top: 46px;
+    left: 67px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rien 
+{
+    position: relative;
+    top: 742px;
+    border-style: solid;
+    border-color: black;
+    height: 131px;
+}
+#borderconnexion 
+{
+    position: absolute;
+    width: 510px;
+    height: 490px;
+    top: 309px;
+    left: 430px;
+    background-color: black;
+    text-align: center;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+#bannierefin
+{
+    width: 923px;
+    height: 150px;
+    top: 9px;
+    left: 204px;
+    position: absolute;
+}
+
+.social {  /*Ici , c'est ma configuration, à vous de la changer */
+    position: relative;
+    width: 1313px;
+    HEIGHT: 39px;
+    top: 1207px;
+    left: 0px;
+    height: 42px;
+    text-align: center;
+    list-style-type: none;
+    /*border-style: solid;
+    border-color: white;*/
+    display: inline;
+    
+}
+
+
+
+ul.social li {
+    WIDTH: 1313px;
+    left: 0px;
+    top: 1199px;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 1em;
+    }
+
+button.accueil 
+{
+    width: 84px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+button:hover{
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+.accueil:active
+{
+    background-color: white;
+    color: black;
+}
+.accueil:hover
+{
+
+    background-color: white;
+    color: black;
+}
+
+button.homme 
+{
+    width: 84px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.homme:active 
+{
+    background-color: white;
+    color: black;
+}
+.homme:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button.panier 
+{
+    width: 84px;
+    height: 35px;
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    border: none;
+}
+
+.panier:active 
+{
+    background-color: white;
+    color: black;
+}
+.panier:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button.femme 
+{
+    width: 84px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.femme:active 
+{
+    background-color: white;
+    color: black;
+}
+.femme:hover
+{
+    background-color: white;
+    color: black;
+}
+
+button.enfants 
+{
+    width: 84px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.enfants:active 
+{
+    background-color: white;
+    color: black;
+}
+.enfants:hover
+{
+    background-color: white;
+    color: black;
+    
+}
+
+#bouton 
+{
+    width: 227px;
+    height: 57px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+#bouton:active 
+{
+    background-color: white;
+    color: black;
+}
+#bouton:hover
+{
+    background-color: white;
+    color: black;
+}
+hr
+{
+    color: white;
+    top: 774px;
+    position: absolute;
+    left: 0;
+    width: 1347px;
+}
+
+
+.titre1
+{
+    position: absolute;
+    top: 1091px;
+    left: 136px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titre2
+{
+    position: absolute;
+    top: 1091px;
+    left: 484px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titre3
+{
+    position: absolute;
+    top: 1091px;
+    left: 798px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.women 
+{
+    position: absolute;
+    top: 899px;
+    left: 199px;
+    height: 100px;
+    width: 100px;
+}
+
+.men 
+{
+    position: absolute;
+    top: 899px;
+    left: 538px;
+    height: 100px;
+    width: 100px;
+}
+
+.kids 
+{
+    position: absolute;
+    top: 899px;
+    left: 873px;
+    height: 100px;
+    width: 100px;
+}
+
+.collechomme{
+    position: relative;
+    top: 1072px;
+    left: 429px;
+    height: 500px;
+    width: 500px;
+}
+
+.collecfemme{
+    position: relative;
+    top: 1100px;
+    left: 429px;
+    height: 500px;
+    width: 500px;
+}
+
+.colleckids{
+    position: relative;
+    top: 1059px;
+    left: 329px;
+    height: 500px;
+    width: 664px;
+}
+#bandeau1{
+    position: absolute;
+    top: 1227px;
+    left: -468px;
+    height: 476px;
+    color: #A39D9D;
+    background-color: /*#363434 */ rgba(58, 57, 57, 0.96);
+    width: 1812px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #413F3F;
+}
+#boutonfemme{
+    position: absolute;
+    top: 1538px;
+    left: 672px;
+    height: 32px;
+    width: 204px;
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#bandeau2{
+    position: absolute;
+    top: 1703px;
+    left: -468px;
+    height: 476px;
+    color: #A39D9D;
+    background-color: /*#363434 */ rgba(255, 255, 255, 0.78);
+    width: 1815px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #413F3F;
+}
+#bandeau3{
+    position: absolute;
+    top: 2177px;
+    left: -468px;
+    height: 480px;
+    color: #A39D9D;
+    background-color: /*#363434 */ rgb(240, 211, 231);
+    width: 1815px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid rgba(231, 197, 220, 0.95);
+}
+.seconnecter 
+{
+    position: absolute;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    left: 1000px;
+    top: 200px;
+}
+  
+  .contener_slideshow
+  {
+    width: 610px;
+    height: 353px;
+    top: 109px;
+    left: 387px;
+    overflow: hidden;
+    position: relative;
+  }
+  .slid_1, .slid_2, .slid_3
+  {
+    position: absolute;
+    width:610px;
+    height:211px;
+  }
+  .slid_1{left: 0;}
+  .slid_2{left: 610px;}
+  .slid_3{left: 1220px;}
+  .contener_slide
+  {
+    width: 1220px;
+    height: 211px;
+    left:0px;
+    position: absolute;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-name: anim_slide;
+    -moz-animation-duration: 20s;
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-name: anim_slide;
+    -ms-animation-duration: 20s;
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-name: anim_slide;
+    animation-duration: 20s;
+    animation-iteration-count:infinite;
+    animation-name: anim_slide;
+  }
+  @-webkit-keyframes anim_slide 
+  {
+    0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+  }
+  @-moz-keyframes anim_slide 
+  {
+    0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+  }
+  @-ms-keyframes anim_slide 
+  {
+    0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+  }
+  @keyframes anim_slide 
+  {
+    0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+  }
+
+.social 
+{
+    position: absolute;
+    top: 3221px;
+    left: -3px;
+    width: 1363px;
+    color: white;
+    border: solid 3px white ;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 0 1em; /* Pour espacer les boutons entre eux */
+}
+
+ul.social
+{
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 0 1em; /* Pour espacer les boutons entre eux */
+    }
+}
+
+.faceb 
+{
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    
+}
+
+.video{
+    position: absolute;
+    top: 220px;
+    left: 184px;
+}
+
+.video2{
+    
+    position: absolute;
+    top: 2723px;
+    left: 375px;
+    
+    border: 1px solid black;
+}
+
+.video2 p{
+    
+    position: absolute;
+    top: 1px;
+    width: 334px;
+    text-align: center;
+    left: 140px;
+    height: 27px;
+    background-color: rgba(128, 128, 128, 0.27);
+    border: 2px solid;
+    border-color: rgba(128, 128, 128, 0.27);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.suppr:hover{
+    color: grey;
+    text-decoration: none;
+}
+
+.row2{
+    margin-top: 65px;
+    padding: 3%;
+    margin-left: 66px;
+    margin-right: auto;
+    font-size: 20px;
+    
+}
+
+.row3{
+    margin-left: 20px;
+}
+
+.row4{
+    
+
+    margin-top: 7px;
+}
+
+.row5{
+    margin-top: 98px;
+}
+
+.table{
+    margin: 15px;
+   
+}
+
+.border{
+    border: 1px solid #e9ecef !important;
+    margin-top: 40px;
+    margin-left: 280px;
+    margin-right: 285px;
+}
+
+button.commande{
+    width: 227px;
+    height: 57px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-left: 370px;
+}
+
+button.commande:hover{
+    background-color: white;
+    color: black;
+}
+/*FOOTER */
+#footer{
+    position: absolute;
+    top: 1250px;
+    left: 0;
+    width: 100%;
+    height: 475px;
+    background-color: rgba(128, 128, 128, 0.06);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+#contenu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+
+ul.footer-list li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+ul.footer-list p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+
+
+
+.item{
+    color: rgb(146, 146, 146);
+
+}
+
+.item:hover{
+    color: rgba(146, 146, 146, 0.57);
+}
+
+#acheter{
+    position: absolute;
+    top: 28px;
+    left: 132px;
+}
+
+#infos{
+    position: absolute;
+    top: 28px;
+    left: 378px;
+}
+
+#aide{
+    position: absolute;
+    top: 28px;
+    left: 638px;
+}
+
+#member{
+    position: absolute;
+    top: 28px;
+    left: 855px;
+}
+
+#social{
+    position: absolute;
+    display: inline;
+    top: 200px;
+    left: -411px;
+}
+
+#h3{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#social li{
+    display: inline;
+    font-family: "HM Ampersand","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    padding : 0 2em; /* Pour espacer les boutons entre eux */
+    }
+#social img{
+    width: 32px;
+    height: 32px;
+}
+
+#texte{
+    position: absolute;
+    top: 262px;
+    left: -565px;
+}
+
+#texte p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.3px;
+    color: rgb(146, 146, 146);
+}
+
+#boutoninscr 
+{
+    width: 204px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left:-40px;
+}
+
+#boutoninscr:active 
+{
+    background-color: white;
+    color: black;
+}
+#boutoninscr:hover
+{
+    background-color: rgba(255, 255, 255, 0.69);
+    color: black;
+}
+#logofooter{
+    position: relative;
+    top: 179px;
+    left: -310px;
+}
+
+#logofooter img{
+    width: 250px;
+    height: 105px;
+}

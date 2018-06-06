@@ -1,0 +1,661 @@
+body 
+{
+    background-color: black;
+    color: white;
+    margin: 0; 
+
+}
+#logo 
+{
+    position: relative;
+    top: 28px;
+    left: 425px;
+    width: 520px;
+    height: 100px;
+
+}
+.video{
+    margin-left: 220px;
+    margin-top: 50px;
+}
+#bande_logo 
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    width: 1349px;
+    height: 200px;
+}
+
+#banniere 
+{
+    width: 923px;
+    height: 150px;
+    left: 230px;
+    position: absolute;
+}
+
+
+ul.menu_horizontal {  /*Ici , c'est ma configuration, à vous de la changer */
+    position: relative;
+    width: 1318px;
+    top: 63px;
+    left: 8px;
+    text-align: center;
+    height: 44px;
+    list-style-type: none;
+   border: 1px solid black;
+    
+}
+
+
+
+ul.menu_horizontal li {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding : 0 1em; /* Pour espacer les boutons entre eux */
+    }
+        
+li.bouton_gauche {
+    float : left;
+    }
+
+
+    button.accueil 
+    {
+        width: 84px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    button:hover{
+        background-color: white;
+        font-weight: bold;
+        color: black;
+    }
+    .accueil:active
+    {
+        background-color: white;
+        color: black;
+    }
+    .accueil:hover
+    {
+    
+        background-color: white;
+        color: black;
+    }
+    
+    button.homme 
+    {
+        width: 84px;
+        height: 35px;
+        background-color: white;
+        font-weight: bold;
+        color: black;
+        border: none;
+    }
+    
+    .homme:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    .homme:hover
+    {
+        background-color: white;
+        color: black;
+    }
+    
+    button.femme
+    {
+        width: 84px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    .femme:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    .femme:hover
+    {
+        background-color: white;
+        color: black;
+    }
+    
+    button.enfants 
+    {
+        width: 84px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    .enfants:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    .enfants:hover
+    {
+        background-color: white;
+        color: black;
+        
+    }
+    
+    button.panier 
+    {
+        width: 84px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    .panier:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    .panier:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    button#seconnecter 
+    {
+        width: 162px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    #seconnecter:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    #seconnecter:hover
+    {
+        background-color: white;
+        color: black;
+    }
+    a
+    {
+        color: white;
+    }
+    
+    a:hover
+    {
+        color: black;
+    }
+    
+    a.homme
+    {
+        color: black;
+    }
+    #bouton 
+    {
+        width: 227px;
+        height: 57px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    #bouton:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    #bouton:hover
+    {
+        background-color: white;
+        color: black;
+    }
+
+    button#deconnexion 
+    {
+        width: 127px;
+        height: 35px;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+    
+    #deconnexion:active 
+    {
+        background-color: white;
+        color: black;
+    }
+    #deconnexion:hover
+    {
+        background-color: white;
+        color: black;
+    }
+hr
+    {
+        color: white;
+        top: 745px;
+        position: absolute;
+        left: 0;
+        width: 1347px;
+    }
+
+
+    a.top {
+        color: white;
+        position: absolute;
+        margin-top: 100px;
+        margin-left: 0px;
+     }
+    
+    .imagezoom{
+        width: 100%;
+        margin-top: 136px;
+        height: 1210px;
+        background-color: rgb(80, 78, 78);
+        /* overflow: hidden; */
+        -webkit-box-shadow: 5px 5px 5px #111;
+        box-shadow: 5px 5px 5px #111;
+    }
+    
+    .imagezoom img{
+        -webkit-transition: all 1s ease; /* Safari and Chrome */
+        -moz-transition: all 1s ease; /* Firefox */
+        -o-transition: all 1s ease; /* IE 9 */
+        -ms-transition: all 1s ease; /* Opera */
+        transition: all 1s ease;
+        max-width: 100%;
+    }
+                
+    .imagezoom img:hover{
+        -webkit-transform:scale(1.25); /* Safari and Chrome */
+        -moz-transform:scale(1.25); /* Firefox */
+        -ms-transform:scale(1.25); /* IE 9 */
+        -o-transform:scale(1.25); /* Opera */
+        transform:scale(1.25);
+    }
+
+.banner{
+    border: 1px solid rgba(255, 255, 255, 0.64);
+    width: 297px;
+    text-align: center;
+    font-size: 23px;
+    height: 38px;
+    background-color: #3B3A44;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    top: 69px;
+    left: 524px;
+    position: absolute;
+}
+.title 
+{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: 94px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 44px;
+    color: #A39D9D;
+    background-color: black;
+    width: 436px;
+    border: 2px solid BLACK;
+    text-shadow: 1px 2px 0 rgba(0,0,0,0.4), -1px -2px 0 #BDB7B7;
+}
+
+#produits{
+    margin-top: 200px;
+}
+
+.title2
+{
+    position: absolute;
+    margin-left: 475px;
+    margin-top: 93px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    height: 44px;
+    color: #A39D9D;
+    background-color: black;
+    width: 377px;
+    border: 2px solid BLACK;
+    text-shadow: 1px 2px 0 rgba(0,0,0,0.4), -1px -2px 0 #BDB7B7;
+}
+
+.titre1
+{
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    width: 393px;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titre2
+{
+    position: absolute;
+    top: 35px;
+    left: 361px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titre3
+{
+    position: absolute;
+    top: 35px;
+    left: 676px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titre4
+{
+    position: absolute;
+    top: 35px;
+    left: 982px;
+    width: 393px;
+    text-align: center;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.categorie
+{
+    
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    margin-left: 435px;
+    height: 81px;
+    color: #A39D9D;
+    background-color: #363434;
+    width: 454px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #363434;
+}
+
+#bandecategories 
+{
+    position: absolute;
+    top: 951px;
+    left: 0px;
+    height: 295px;
+    color: #A39D9D;
+    background-color: /*#363434 */ rgba(37, 26, 26, 0.96);
+    width: 1344px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid #363434;
+}
+
+
+h2
+{
+    margin-top: 6px;
+}
+
+.tshirts:hover 
+{
+    opacity: 0.6;
+    color: rgba(128, 128, 128, 0.45);
+}
+
+.jeans:hover
+{
+    opacity: 0.6;
+    color: rgba(128, 128, 128, 0.45);
+}
+
+.sweats:hover
+{
+    opacity: 0.6;
+    color: rgba(128, 128, 128, 0.45);
+}
+
+.polos:hover
+{
+    opacity: 0.6;
+    color: rgba(128, 128, 128, 0.45);
+}
+
+
+.contener_slideshow
+{
+  width: 610px;
+  height: 353px;
+  top: 182px;
+  left: 387px;
+  overflow: hidden;
+  position: relative;
+}
+.slid_1, .slid_2, .slid_3
+{
+  position: absolute;
+  width:610px;
+  height:211px;
+}
+.slid_1{left: 0;}
+.slid_2{left: 610px;}
+.slid_3{left: 1220px;}
+.contener_slide
+{
+  width: 1220px;
+  height: 211px;
+  left:0px;
+  position: absolute;
+  -webkit-animation-duration: 20s;
+  -webkit-animation-iteration-count:infinite;
+  -webkit-animation-name: anim_slide;
+  -moz-animation-duration: 20s;
+  -moz-animation-iteration-count:infinite;
+  -moz-animation-name: anim_slide;
+  -ms-animation-duration: 20s;
+  -ms-animation-iteration-count:infinite;
+  -ms-animation-name: anim_slide;
+  animation-duration: 20s;
+  animation-iteration-count:infinite;
+  animation-name: anim_slide;
+}
+@-webkit-keyframes anim_slide 
+{
+  0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+}
+@-moz-keyframes anim_slide 
+{
+  0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+}
+@-ms-keyframes anim_slide 
+{
+  0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+}
+@keyframes anim_slide 
+{
+  0% {left:0px;}32% {left:0px;}33% {left:-610px;}65% {left:-610px;}66% {left:-1220px;}100% {left:-1220px;}
+}
+
+
+.table{
+    margin-top: 10px;
+    text-align: center;
+    height: 275px;
+    background-image: rgb(80, 78, 78);
+    width: 100%;
+    margin-left: 0px;
+}
+
+.table img:hover{
+    opacity: 0.6;
+    color: rgba(128, 128, 128, 0.45);
+}
+
+.table th, .table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 90px solid rgba(80, 78, 78, 0.3);
+}
+
+.row2{
+    margin-top: 63px;
+    MARGIN-LEFT: 380px;
+    
+}
+
+.date{
+    margin-left: 16px;
+}
+
+
+/*FOOTER */
+#footer{
+    position: absolute;
+    margin-top: 202px;
+    width: 100%;
+    height: 475px;
+    background-color: rgba(128, 128, 128, 0.06);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+
+#contenu{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+   
+}
+
+ul.footer-list li{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+ul.footer-list p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style:none;
+    margin-left:-40px;
+    padding-left:0;
+    left: 100px;
+}
+
+
+
+.item{
+    color: rgb(146, 146, 146);
+
+}
+
+.item:hover{
+    color: rgba(146, 146, 146, 0.57);
+}
+
+#acheter{
+    position: absolute;
+    top: 28px;
+    left: 132px;
+}
+
+#infos{
+    position: absolute;
+    top: 28px;
+    left: 378px;
+}
+
+#aide{
+    position: absolute;
+    top: 28px;
+    left: 638px;
+}
+
+#member{
+    position: absolute;
+    top: 28px;
+    left: 855px;
+}
+
+#social{
+    position: absolute;
+    display: inline;
+    top: 200px;
+    left: -411px;
+}
+
+#h3{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#social li{
+    display: inline;
+    font-family: "HM Ampersand","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,"メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    padding : 0 2em; /* Pour espacer les boutons entre eux */
+    }
+#social img{
+    width: 32px;
+    height: 32px;
+}
+
+#texte{
+    position: absolute;
+    top: 262px;
+    left: -565px;
+}
+
+#texte p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10.3px;
+    color: rgb(146, 146, 146);
+}
+
+#boutoninscr 
+{
+    width: 204px;
+    height: 45px;
+    background-color: white;
+    color: black;
+    border: none;
+    margin-left:-40px;
+}
+
+#boutoninscr:active 
+{
+    background-color: white;
+    color: black;
+}
+#boutoninscr:hover
+{
+    background-color: rgba(255, 255, 255, 0.69);
+    color: black;
+}
+#logofooter{
+    position: relative;
+    top: 179px;
+    left: -310px;
+}
+
+#logofooter img{
+    width: 250px;
+    height: 105px;
+}
